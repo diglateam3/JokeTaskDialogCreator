@@ -56,7 +56,7 @@ namespace JokeTaskDialogCreator
             this.button1.Location = new System.Drawing.Point(11, 491);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(360, 64);
-            this.button1.TabIndex = 1;
+            this.button1.TabIndex = 19;
             this.button1.Text = "表示する！";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -67,16 +67,16 @@ namespace JokeTaskDialogCreator
             this.s_messageCaption.Name = "s_messageCaption";
             this.s_messageCaption.PlaceholderText = "JokeTaskDialogCreator";
             this.s_messageCaption.Size = new System.Drawing.Size(360, 23);
-            this.s_messageCaption.TabIndex = 2;
+            this.s_messageCaption.TabIndex = 1;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(12, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(97, 15);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "メッセージのタイトル";
+            this.label1.Size = new System.Drawing.Size(100, 15);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "メッセージのタイトル:";
             // 
             // s_messageHeading
             // 
@@ -84,7 +84,7 @@ namespace JokeTaskDialogCreator
             this.s_messageHeading.Name = "s_messageHeading";
             this.s_messageHeading.PlaceholderText = "Hello, World!";
             this.s_messageHeading.Size = new System.Drawing.Size(360, 23);
-            this.s_messageHeading.TabIndex = 2;
+            this.s_messageHeading.TabIndex = 3;
             // 
             // label2
             // 
@@ -92,7 +92,7 @@ namespace JokeTaskDialogCreator
             this.label2.Location = new System.Drawing.Point(12, 53);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(175, 15);
-            this.label2.TabIndex = 3;
+            this.label2.TabIndex = 2;
             this.label2.Text = "メッセージの見出し（キャプション）: ";
             // 
             // label3
@@ -101,7 +101,7 @@ namespace JokeTaskDialogCreator
             this.label3.Location = new System.Drawing.Point(11, 97);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(91, 15);
-            this.label3.TabIndex = 5;
+            this.label3.TabIndex = 4;
             this.label3.Text = "メッセージの本文: ";
             // 
             // s_messageText
@@ -111,7 +111,7 @@ namespace JokeTaskDialogCreator
             this.s_messageText.Name = "s_messageText";
             this.s_messageText.PlaceholderText = "Hello, World!";
             this.s_messageText.Size = new System.Drawing.Size(360, 124);
-            this.s_messageText.TabIndex = 4;
+            this.s_messageText.TabIndex = 5;
             // 
             // comboBox1
             // 
@@ -132,7 +132,7 @@ namespace JokeTaskDialogCreator
             this.comboBox1.Location = new System.Drawing.Point(11, 260);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(361, 23);
-            this.comboBox1.TabIndex = 6;
+            this.comboBox1.TabIndex = 7;
             // 
             // label4
             // 
@@ -140,7 +140,7 @@ namespace JokeTaskDialogCreator
             this.label4.Location = new System.Drawing.Point(12, 242);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(102, 15);
-            this.label4.TabIndex = 7;
+            this.label4.TabIndex = 6;
             this.label4.Text = "メッセージのアイコン: ";
             // 
             // label5
@@ -149,7 +149,7 @@ namespace JokeTaskDialogCreator
             this.label5.Location = new System.Drawing.Point(11, 286);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(86, 15);
-            this.label5.TabIndex = 9;
+            this.label5.TabIndex = 8;
             this.label5.Text = "選択肢1の内容:";
             // 
             // s_choice1text
@@ -158,7 +158,7 @@ namespace JokeTaskDialogCreator
             this.s_choice1text.Name = "s_choice1text";
             this.s_choice1text.PlaceholderText = "選択肢1";
             this.s_choice1text.Size = new System.Drawing.Size(360, 23);
-            this.s_choice1text.TabIndex = 8;
+            this.s_choice1text.TabIndex = 10;
             // 
             // b_1stchoiceUAC
             // 
@@ -166,7 +166,7 @@ namespace JokeTaskDialogCreator
             this.b_1stchoiceUAC.Location = new System.Drawing.Point(151, 285);
             this.b_1stchoiceUAC.Name = "b_1stchoiceUAC";
             this.b_1stchoiceUAC.Size = new System.Drawing.Size(221, 19);
-            this.b_1stchoiceUAC.TabIndex = 10;
+            this.b_1stchoiceUAC.TabIndex = 9;
             this.b_1stchoiceUAC.Text = "管理者権限が必要な操作のマークを出す";
             this.b_1stchoiceUAC.UseVisualStyleBackColor = true;
             // 
@@ -176,7 +176,7 @@ namespace JokeTaskDialogCreator
             this.label6.Location = new System.Drawing.Point(11, 330);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(86, 15);
-            this.label6.TabIndex = 12;
+            this.label6.TabIndex = 11;
             this.label6.Text = "選択肢1の説明:";
             // 
             // s_choice1desc
@@ -185,7 +185,7 @@ namespace JokeTaskDialogCreator
             this.s_choice1desc.Name = "s_choice1desc";
             this.s_choice1desc.PlaceholderText = "選択肢1の説明だよ";
             this.s_choice1desc.Size = new System.Drawing.Size(360, 23);
-            this.s_choice1desc.TabIndex = 11;
+            this.s_choice1desc.TabIndex = 12;
             // 
             // label7
             // 
@@ -193,7 +193,7 @@ namespace JokeTaskDialogCreator
             this.label7.Location = new System.Drawing.Point(11, 418);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(86, 15);
-            this.label7.TabIndex = 17;
+            this.label7.TabIndex = 16;
             this.label7.Text = "選択肢2の説明:";
             // 
             // s_choice2desc
@@ -202,7 +202,7 @@ namespace JokeTaskDialogCreator
             this.s_choice2desc.Name = "s_choice2desc";
             this.s_choice2desc.PlaceholderText = "選択肢2の説明だよ";
             this.s_choice2desc.Size = new System.Drawing.Size(360, 23);
-            this.s_choice2desc.TabIndex = 16;
+            this.s_choice2desc.TabIndex = 17;
             // 
             // b_2ndchoiceUAC
             // 
@@ -210,7 +210,7 @@ namespace JokeTaskDialogCreator
             this.b_2ndchoiceUAC.Location = new System.Drawing.Point(151, 373);
             this.b_2ndchoiceUAC.Name = "b_2ndchoiceUAC";
             this.b_2ndchoiceUAC.Size = new System.Drawing.Size(221, 19);
-            this.b_2ndchoiceUAC.TabIndex = 15;
+            this.b_2ndchoiceUAC.TabIndex = 14;
             this.b_2ndchoiceUAC.Text = "管理者権限が必要な操作のマークを出す";
             this.b_2ndchoiceUAC.UseVisualStyleBackColor = true;
             // 
@@ -220,7 +220,7 @@ namespace JokeTaskDialogCreator
             this.label8.Location = new System.Drawing.Point(11, 374);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(86, 15);
-            this.label8.TabIndex = 14;
+            this.label8.TabIndex = 13;
             this.label8.Text = "選択肢2の内容:";
             // 
             // s_choice2text
@@ -229,7 +229,7 @@ namespace JokeTaskDialogCreator
             this.s_choice2text.Name = "s_choice2text";
             this.s_choice2text.PlaceholderText = "選択肢2";
             this.s_choice2text.Size = new System.Drawing.Size(360, 23);
-            this.s_choice2text.TabIndex = 13;
+            this.s_choice2text.TabIndex = 15;
             // 
             // b_expandenable
             // 
