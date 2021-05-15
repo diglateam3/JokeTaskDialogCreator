@@ -66,10 +66,5 @@ namespace JokeTaskDialogCreator
                 Expander = b_expandenable.Checked ? new TaskDialogExpander("詳細が表示されています") : null
             }); ; ;
         }
-
-        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            System.Diagnostics.Process.Start("http://diglaworks.booth.pm/");
-        }
     }
 }
